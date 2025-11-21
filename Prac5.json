@@ -1,0 +1,75 @@
+
+[
+  {
+    "_id": {
+      "$oid": "691e0be2f51bcd943e783637"
+    },
+    "nombre": "Rana Arbórea",
+    "clase": "Anfibios",
+    "edadAprox": 1,
+    "habitat": "Selvas húmedas",
+    "pesokg": 0.03,
+    "alimentacion": [
+      "insectos",
+      "arañas"
+    ],
+    "distribucion": {
+      "region": "Sudeste Asiático",
+      "pais": "Indonesia"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "692079ba3a0748c26bdc86f4"
+    },
+    "nombre": "Rana Arbórea",
+    "clase": "Anfibios",
+    "edadAprox": 1,
+    "habitat": "Selvas húmedas",
+    "pesokg": 0.03,
+    "alimentacion": [
+      "insectos",
+      "arañas"
+    ],
+    "distribucion": {
+      "region": "Sudeste Asiatico",
+      "pais": "Indonesia"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69207a60c13b580a6afe2b36"
+    },
+    "nombre": "Rana Arbórea",
+    "clase": "Anfibios",
+    "edadAprox": 1,
+    "habitat": "Selvas húmedas",
+    "pesokg": 0.03,
+    "alimentacion": [
+      "insectos",
+      "arañas"
+    ],
+    "distribucion": {
+      "region": "Sudeste Asiatico",
+      "pais": "Indonesia"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "692085af80f62fff0889295a"
+    },
+    "nombre": "Rana Arbórea",
+    "clase": "Anfibios",
+    "edadAprox": 1,
+    "habitat": "Selvas húmedas",
+    "pesokg": 0.03,
+    "alimentacion": [
+      "insectos",
+      "arañas"
+    ],
+    "distribucion": {
+      "region": "Sudeste Asiatico",
+      "pais": "Indonesia"
+    }
+  }
+]

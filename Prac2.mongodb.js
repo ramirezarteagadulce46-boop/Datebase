@@ -2,8 +2,7 @@
 use('animales');
 
 db.createCollection('aves');
-db.animales.insertMany({
-  "_id": ObjectId("1"),
+db.aves.insertOne({
   "nombre": "Guacamayo Rojo",
   "clase": "Aves",
   "edadAprox": 5,
@@ -18,7 +17,6 @@ db.animales.insertMany({
 
 db.createCollection('reptiles');
 db.animales.insertMany({
-  "_id": ObjectId("2"),
   "nombre": "Iguana Verde",
   "clase": "Reptiles",
   "edadAprox": 7,
@@ -30,9 +28,9 @@ db.animales.insertMany({
   "pais": "México"
   }
 })
+
 db.createCollection('peces');
 db.animales.insertOne({
-  "_id": ObjectId("3"),
   "nombre": "Pez Ángel",
   "clase": "Peces",
   "edadAprox": 2,
@@ -44,9 +42,9 @@ db.animales.insertOne({
   "mba": 50
   }
 })
+
 db.createCollection('mamiferos');
 db.animales.insertOne({
-  "_id": ObjectId("4"),
   "nombre": "León Africano",
   "clase": "Mamíferos",
   "edadAprox": 10,
@@ -59,34 +57,17 @@ db.animales.insertOne({
   }
 })
 
-db.createCollection('mamiferos');
+db.createCollection('anfibios');
 db.animales.insertOne({
-  "_id": ObjectId("4"),
-  "nombre": "León Africano",
-  "clase": "Mamíferos",
-  "edadAprox": 10,
-  "habitat": "Sabanas",
-  "pesokg": 190,
-  "alimentacion": ["antílopes", "cebras", "búfalos"],
-  "distribucion": {
-  "region": "África",
-  "pais": "Kenia"
-  }
-})
-
-db.createCollection('mamiferos');
-db.animales.insertOne({
-  "_id": ObjectId("6733cfaf15d48a87b9c20004"),
   "nombre": "Rana Arbórea",
   "clase": "Anfibios",
-  "edadAproximada": 1,
+  "edadApro": 1,
   "habitat": "Selvas húmedas",
-  "activo": true,
-  "pesoPromedio_kg": 0.03,
-  "fechaRegistro": ISODate("2025-11-12T14:00:00Z"),
+  "pesokg": 0.03,
   "alimentacion": ["insectos", "arañas"],
   "distribucion": {
-    "region": "Sudeste Asiático",
-    "pais": "Indonesia"
+  "region": "Sudeste Asiatico",
+  "pais": "Indonesia"
   }
-}
+});
+

@@ -58,7 +58,7 @@ db.mamiferos.insertOne({
 
 db.createCollection('anfibios');
 db.anfibios.insertOne({
-  "nombre": cc,
+  "nombre":"Rana Arbórea",
   "clase": "Anfibios",
   "edadAprox": 1,
   "habitat": "Selvas húmedas",

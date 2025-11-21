@@ -1,4 +1,3 @@
-
 use('animales');
 
 db.createCollection('aves');
@@ -13,10 +12,10 @@ db.aves.insertOne({
   "region": "América del Sur",
   "pais": "Brasil"
   }
-})
+});
 
 db.createCollection('reptiles');
-db.animales.insertMany({
+db.reptiles.insertOne({
   "nombre": "Iguana Verde",
   "clase": "Reptiles",
   "edadAprox": 7,
@@ -27,10 +26,10 @@ db.animales.insertMany({
   "region": "América Central",
   "pais": "México"
   }
-})
+});
 
 db.createCollection('peces');
-db.animales.insertOne({
+db.peces.insertOne({
   "nombre": "Pez Ángel",
   "clase": "Peces",
   "edadAprox": 2,
@@ -39,12 +38,12 @@ db.animales.insertOne({
   "alimentacion": ["algas", "pequeños crustáceos"],
   "distribucion": {
   "region": "Océano Indo-Pacífico",
-  "mba": 50
+  "profundidadMax": 50
   }
-})
+});
 
 db.createCollection('mamiferos');
-db.animales.insertOne({
+db.mamiferos.insertOne({
   "nombre": "León Africano",
   "clase": "Mamíferos",
   "edadAprox": 10,
@@ -55,13 +54,13 @@ db.animales.insertOne({
   "region": "África",
   "pais": "Kenia"
   }
-})
+});
 
 db.createCollection('anfibios');
-db.animales.insertOne({
+db.anfibios.insertOne({
   "nombre": "Rana Arbórea",
   "clase": "Anfibios",
-  "edadApro": 1,
+  "edadAprox": 1,
   "habitat": "Selvas húmedas",
   "pesokg": 0.03,
   "alimentacion": ["insectos", "arañas"],
